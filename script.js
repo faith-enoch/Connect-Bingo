@@ -1,0 +1,28 @@
+// File: script.js
+const prompts = [
+"I've tried to turn my passion into money — it went... okay.",
+"I once had a “great idea” but never actually started it.",
+"I've Googled “how to find your purpose” more than once.",
+"I’ve felt burned out by something I love.",
+"I’ve done free work just to “get my foot in the door.”",
+"I’ve changed what I thought was my passion — more than once.",
+"I’ve had a creative project that kept me up all night (in a good way).",
+"I’ve doubted myself but kept going anyway.",
+"I’ve said “no” to money because the vibes were off.",
+"I’ve felt like I’m behind — even when I’m making progress.",
+"I’ve tried juggling more than one passion at the same time.",
+"I’ve had an idea that people didn’t understand… but I loved it anyway.",
+"I’ve used my 9–5 to secretly fund my 5–9.",
+"I’ve wanted to quit everything and live in the mountains (or somewhere quiet).",
+"I’ve worked with someone who inspired me deeply.",
+"I’ve asked myself “Is this really what I’m meant to do?”",
+"I’ve taken a break to figure out what I really want.",
+"I’ve helped a friend chase their dream — and it felt amazing.",
+"I’ve been asked to “just do it for exposure” (and rolled my eyes).",
+"I’ve thought about starting a podcast, blog, or brand… at least once.",
+"I’ve felt proud of something I created — even if no one else saw it.",
+"I’ve had a “this is it!” moment — and then a “never mind…” moment.",
+"I’ve rebranded myself (Instagram bios count too).",
+"I’ve told someone about my dream — and their reaction surprised me.",
+"I’ve discovered something new about myself just this year."
+];
