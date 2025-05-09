@@ -1,0 +1,75 @@
+// File: index.html
+
+// File: style.css
+body {
+margin: 0;
+font-family: 'Segoe UI', Tahoma, sans-serif;
+background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+color: #333;
+}
+.container {
+text-align: center;
+max-width: 320px;
+width: 90%;
+}
+h1 {
+font-size: 1.8rem;
+margin-bottom: 1rem;
+}
+button {
+background: #ff6f61;
+color: #fff;
+border: none;
+border-radius: 8px;
+padding: 10px 20px;
+font-size: 1rem;
+margin: 5px;
+cursor: pointer;
+transition: background 0.3s;
+}
+button:hover {
+background: #e65a4c;
+}
+.hidden { display: none; }
+.bingo-card {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: auto repeat(5, 1fr);
+gap: 2px;
+margin-top: 20px;
+}
+.bingo-card .header,
+.bingo-card .cell {
+border: 2px solid #fff;
+background: #fff;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 5px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+user-select: none;
+}
+.bingo-card .header {
+background: #ff6f61;
+color: #fff;
+font-weight: bold;
+}
+.bingo-card .cell {
+cursor: pointer;
+font-size: 0.85rem;
+white-space: normal;
+word-wrap: break-word;
+min-height: 40px;
+}
+.bingo-card .cell.marked {
+background: #90ee90;
+}
+.bingo-card .cell.free {
+background: #fafafa;
+cursor: default;
+font-weight: bold;
+}
